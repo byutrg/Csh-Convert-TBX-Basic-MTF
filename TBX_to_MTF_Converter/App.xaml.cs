@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace MTF_ImporterGUI
+namespace TBX_to_MTF_Converter
 {
     /// <summary>
     /// Interaction logic for App.xaml

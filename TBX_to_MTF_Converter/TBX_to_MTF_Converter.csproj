@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0B0A837A-19CD-404B-9D80-88765E263A42}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MTF_ImporterGUI</RootNamespace>
-    <AssemblyName>MTF_ImporterGUI</AssemblyName>
+    <RootNamespace>TBX_to_MTF_Converter</RootNamespace>
+    <AssemblyName>TBX_to_MTF_Converter</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -93,6 +93,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Csh-TBXTools\TBXTools\TBXTools.csproj">
+      <Project>{9df04058-5c53-4117-93d5-15b4cdd78674}</Project>
+      <Name>TBXTools</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

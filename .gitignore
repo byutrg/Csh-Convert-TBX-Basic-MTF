@@ -1,1 +1,5 @@
 .vs
+TBX_to_MTF_Converter/bin
+Csh-TBXTools/bin
+TBX_to_MTF_Converter/obj
+Csh-TBXTools/obj

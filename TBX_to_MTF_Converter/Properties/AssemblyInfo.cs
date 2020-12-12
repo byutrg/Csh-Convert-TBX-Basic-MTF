@@ -7,11 +7,11 @@ using System.Windows;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MTF_ImporterGUI")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("TBX_to_MTF_Converter")]
+[assembly: AssemblyDescription("Tool to convert TBX v3 TBX-Basic files to MTF files.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MTF_ImporterGUI")]
+[assembly: AssemblyCompany("Brigham Young University Translation Research Group")]
+[assembly: AssemblyProduct("TBX_to_MTF_Converter")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
