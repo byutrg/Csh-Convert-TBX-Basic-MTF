@@ -118,6 +118,8 @@ namespace TBX_to_MTF_Converter
 
         private void ConvertButton_Click(object sender, RoutedEventArgs e)
         {
+            TBXTools.LoggingManager.Output = LogOutput;
+
             using (FileStream tbxInput = new FileStream(TBXFilePath, FileMode.Open))
             using (FileStream mtfOutput = new FileStream(MTFOutputPath, FileMode.Create))
             {
@@ -128,6 +130,14 @@ namespace TBX_to_MTF_Converter
                 {
                     statusLabel.Content = "Conversion failed.";
                 }
+            }
+        }
+
+        private void LogOutput(string message, params object[] args)
+        {
+            using (var logFile = File.AppendText(TBXFilePath + ".log"))
+            {
+                logFile.WriteLine(message);
             }
         }
 
